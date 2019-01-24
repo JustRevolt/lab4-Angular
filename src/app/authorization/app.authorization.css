@@ -1,0 +1,25 @@
+.error_message{
+   color: red;
+   font-size: medium;
+   font-family: cursive;
+   margin: 0 0 3%;
+   text-align: center;
+}
+
+#reg, #auth{
+   border: 3px rgba(34, 153, 160, 0.7) inset;
+   margin: 5%;
+   padding: 0 10px 0 10px;
+}
+
+input{
+   text-align: center;
+}
+
+authorization{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-content: center;
+   background: rgb(0, 255, 207);
+}

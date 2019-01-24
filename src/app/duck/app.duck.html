@@ -1,0 +1,18 @@
+<div class="d_text">
+    <p>Упал сервер?
+    <p>Значит, настало время уточек ...
+</div>
+<div class="d_error">
+    Server error: <span class="d_error_cause"> {{cause}}</span>
+</div>
+
+<div class="game">
+    <canvas id="game_canvas" width="1000" height="320">
+        Sorry, no games
+    </canvas>
+</div>
+
+<div class="d_return">Вернуться и попробовать еще раз?
+    <button class="return" (click)="returnBack()">return </button>
+</div>
+<script src="game.js"></script>

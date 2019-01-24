@@ -1,0 +1,59 @@
+.graph{
+    margin: 15px;
+    background: #ffffff;
+    opacity: 0.8;
+    border-radius: 30px;
+    border : 5px solid rgba(34, 153, 160, 0.7)
+}
+
+/*.user_data{*/
+    /*!*margin-left: 40%;*!*/
+/*}*/
+
+
+.main_info{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.buttons{
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.coordinates{
+    /*position: absolute;*/
+    /*margin-left: 30%;*/
+    text-align: center;
+}
+
+/*.user_data,.coordinates{*/
+    /*display: inline-block;*/
+/*}*/
+
+#y{
+    text-align: center;
+}
+
+.error_validate{
+    color: red;
+}
+
+.check{
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
+}
+.check:hover{
+    text-decoration: underline;
+    background: #0ed5ff;
+    border: 2px solid rgb(34, 153, 160);
+}

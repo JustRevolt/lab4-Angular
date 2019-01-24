@@ -1,0 +1,22 @@
+footer{
+    font-family: "Times New Roman", sans-serif;
+    text-align: center;
+    background-color: rgb(34, 153, 160);
+    height: auto;
+    vertical-align: middle;
+    color: #ffffff;
+    font-size: xx-large;
+    padding: 1%;
+}
+
+@media (max-width: 700px) {
+    footer{
+        font-size: small;
+    }
+    @media (min-width: 701px) and (max-width: 1200px) {
+        footer{
+            font-size: xx-large;
+        }
+
+    }
+}
